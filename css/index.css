@@ -145,7 +145,7 @@ body.index .content .headline .title p i {
   margin-right: 5px;
 }
 body.index .content .headline .title p .rand::before {
-    content: url(../image/people.png);
+    content: url(../images/people.png);
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -244,7 +244,7 @@ body.index .content .section2 ul li {
   position: relative;
 }
 body.index .content .section2 ul li:before {
-  content: url('../image/dot.svg');
+  content: url('../images/dot.svg');
   margin-left: -28px;
   width: 12px;
   height: 12px;
@@ -292,7 +292,7 @@ body.index .content .section1 .button::after {
   position: absolute;
   top: 15px;
   right: 20px;
-  content: url(../image/arrow.svg);
+  content: url(../images/arrow.svg);
 transform: rotate(90deg)
     
 }
@@ -549,7 +549,7 @@ body.index .content .section4 ul li {
   margin-bottom: 27px;
 }
 body.index .content .section4 ul li:before {
-  content: url('../image/dot.svg');
+  content: url('../images/dot.svg');
   margin-left: -28px;
   width: 12px;
   height: 12px;
