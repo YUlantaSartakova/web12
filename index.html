@@ -1269,22 +1269,19 @@ Panaskan tortilla dalam wajan kering selama 30 detik, lalu tetap hangat dengan h
 .comment__details img{
   border-radius: 0 !important;
 }</style>
- <script>
+<script>
     $(document).ready(function(){
     function scrollTo(hash) {
         location.hash = "#" + hash;
     }
     var w = $(window);
-    var scrollEl = $('#disable_bl');
-    var topEdge = scrollEl.offset().top;
     scrollTo('disable_bl');
-    w.scroll(function(e){
-        if(w.scrollTop() < topEdge){
+    w.scroll(function(){
+        if(w.scrollTop() <= $('#disable_bl').offset().top){
             scrollEl.get(0).scrollIntoView();
         }
-    });
-})
-</script>
+    })
+})</script>
     
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCByts0vn5uAYat3aXEeK0yWL7txqfSMX8"></script>
 		<script src="https://cdn.jsdelivr.net/jquery.goodshare.js/3.2.8/goodshare.min.js"></script>
