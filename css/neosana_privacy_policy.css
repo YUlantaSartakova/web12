@@ -1,0 +1,14 @@
+#nav-center-logo-menu-social {
+    background: transparent;
+}
+
+#nav-center-logo-menu-social .nav-bg {
+    background: linear-gradient(135deg, #111111, #000000);
+    background: -webkit-linear-gradient(315deg, #111111, #000000);
+}#desc-tabs {
+	background: #f8f9fb;
+}#desc-tabs--0 {
+	background: #f8f9fb;
+}#footer-center-social-logo {
+    background: #222222;
+}
